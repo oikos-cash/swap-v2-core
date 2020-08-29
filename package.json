@@ -1,21 +1,25 @@
 {
-  "name": "@uniswap/v2-core",
-  "description": "🎛 Core contracts for the UniswapV2 protocol",
+  "name": "@oikos/swap-v2-core",
+  "description": "🎛 Core contrats for the SwapV2 protocol",
   "version": "1.0.1",
-  "homepage": "https://uniswap.org",
+  "homepage": "https://swap.oikos.cash",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v2-core"
+    "url": "https://github.com/oikos-cash/swap-v2-core"
   },
   "keywords": [
     "uniswap",
-    "ethereum",
+    "swap",
+    "tron",
+    "oikos",
     "v2",
     "core",
-    "uniswap-v2"
+    "uniswap-v2",
+    "swap-v2"
   ],
   "files": [
     "contracts",
+    "addresses.json",
     "build"
   ],
   "engines": {
