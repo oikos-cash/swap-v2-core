@@ -10,7 +10,7 @@ module.exports = {
         return createJavaTronProvider({
           network: 'nile',
           privateKey: process.env.PRIVATE_KEY_NILE,
-          mapBytecode: createMapTruffleBytecode({ contractsPath: './build' })
+          mapBytecode: createMapTruffleBytecode()
         })
       },
       network_id: '*',
