@@ -25,4 +25,6 @@ The following assumes the use of `node@>=10`.
 
 ## Tron
 
+Note: use Node <12 to use Truffle...
+
 Compile with `npm run compile` and deploy with `npm run deploy` or `npm run deploy:nile`.
