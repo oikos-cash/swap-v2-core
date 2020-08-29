@@ -22,3 +22,7 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+
+## Tron
+
+Compile with `npm run compile` and deploy with `npm run deploy` or `npm run deploy:nile`.
