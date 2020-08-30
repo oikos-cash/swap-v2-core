@@ -13,15 +13,15 @@ The following assumes the use of `node@>=10`.
 
 ## Install Dependencies
 
-`yarn`
+`npm install`
 
 ## Compile Contracts
 
-`yarn compile`
+`npm run compile`
 
 ## Run Tests
 
-`yarn test`
+`npm test`
 
 ## Tron Deployment
 

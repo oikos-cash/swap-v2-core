@@ -45,8 +45,9 @@
     "lint:fix": "prettier ./test/*.ts --write",
     "clean": "rimraf ./build/",
     "precompile": "npm run clean",
-    "compile": "waffle .waffle.json",
+    "compile": "waffle .waffle.json && truffle compile",
     "pretest": "npm run compile",
+    "prepublishOnly": "npm run compile",
     "test": "mocha",
     "deploy:nile": "truffle deploy --network nile"
   },
