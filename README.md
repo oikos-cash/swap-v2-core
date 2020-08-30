@@ -7,6 +7,13 @@ Swap v2 is a Tron port of Uniswap v2. In-depth documentation on Uniswap V2 is av
 
 The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/browse/@oikos-cash/swap-v2-core@latest/).
 
+## Contract Addresses
+
+| Chain   | Address                                                                                                       |
+| ------- | ------------------------------------------------------------------------------------------------------------- |
+| Mainnet | [todo](https://tronscan.org/#/contract/todo)                                                                  |
+| Nile    | [TNurJTRBi56aN6Yb1PQ4NyMjaWVgstnkjy](https://nile.tronscan.org/#/contract/TNurJTRBi56aN6Yb1PQ4NyMjaWVgstnkjy) |
+
 # Local Development
 
 The following assumes the use of `node@>=10`.
