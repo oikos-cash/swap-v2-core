@@ -1,7 +1,7 @@
 {
   "name": "@oikos/swap-v2-core",
   "description": "🎛 Core contrats for the SwapV2 protocol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://swap.oikos.cash",
   "repository": {
     "type": "git",
