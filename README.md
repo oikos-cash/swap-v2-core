@@ -12,7 +12,7 @@ The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/br
 | Chain   | Address                                                                                                       |
 | ------- | ------------------------------------------------------------------------------------------------------------- |
 | Mainnet | [todo](https://tronscan.org/#/contract/todo)                                                                  |
-| Nile    | [TNurJTRBi56aN6Yb1PQ4NyMjaWVgstnkjy](https://nile.tronscan.org/#/contract/TNurJTRBi56aN6Yb1PQ4NyMjaWVgstnkjy) |
+| Nile    | [TFyQKFhnFxt45zA2rdmCswmXa1YNiDs46n](https://nile.tronscan.org/#/contract/TFyQKFhnFxt45zA2rdmCswmXa1YNiDs46n) |
 
 # Local Development
 
