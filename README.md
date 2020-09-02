@@ -16,7 +16,11 @@ The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/br
 
 # Local Development
 
-The following assumes the use of `node@>=10`.
+The following assumes the use of `node v12`.
+
+```
+nvm use 12
+```
 
 ## Install Dependencies
 
