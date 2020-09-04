@@ -26,7 +26,7 @@
     "node": ">=10"
   },
   "devDependencies": {
-    "@opentron/java-tron-provider": "^0.3.4",
+    "@opentron/java-tron-provider": "^0.4.2",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
@@ -49,7 +49,8 @@
     "pretest": "npm run compile",
     "prepublishOnly": "npm run compile",
     "test": "mocha",
-    "deploy:nile": "truffle deploy --network nile"
+    "deploy:nile": "truffle deploy --network nile",
+    "deploy": "truffle deploy --network mainnet"
   },
   "license": "GPL-3.0-or-later"
 }

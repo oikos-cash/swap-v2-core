@@ -11,8 +11,10 @@ The built contract artifacts can be browsed via [unpkg.com](https://unpkg.com/br
 
 | Chain   | Address                                                                                                       |
 | ------- | ------------------------------------------------------------------------------------------------------------- |
-| Mainnet | [todo](https://tronscan.org/#/contract/todo)                                                                  |
+| Mainnet | [TPvAyF9bNTbP4xEkmgJKefh3pPtZsrqDHM](https://tronscan.org/#/contract/TPvAyF9bNTbP4xEkmgJKefh3pPtZsrqDHM)      |
 | Nile    | [TFyQKFhnFxt45zA2rdmCswmXa1YNiDs46n](https://nile.tronscan.org/#/contract/TFyQKFhnFxt45zA2rdmCswmXa1YNiDs46n) |
+
+Compiled with `solc 0.5.16+commit.9c3226ce.Emscripten.clang 200 runs`.
 
 # Local Development
 
