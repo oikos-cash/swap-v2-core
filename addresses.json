@@ -1,5 +1,8 @@
 {
   "nile": {
     "factory": "0x41DA32Ec09Fb54aB5f5742F1eB730003caaC0BbF"
+  },
+  "mainnet": {
+    "factory": "0x98fED14512ec379eB5a545e1aE1DbDa17476439A"
   }
 }
