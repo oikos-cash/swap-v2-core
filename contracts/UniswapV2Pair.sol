@@ -18,6 +18,8 @@ contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
     address public factory;
     address public token0;
     address public token1;
+    // TRON
+    address private constant USDT_TOKEN_ADDRESS = 0xa614f803B6FD780986A42c78Ec9c7f77e6DeD13C;
 
     uint112 private reserve0;           // uses single storage slot, accessible via getReserves
     uint112 private reserve1;           // uses single storage slot, accessible via getReserves
@@ -41,9 +43,20 @@ contract UniswapV2Pair is IUniswapV2Pair, UniswapV2ERC20 {
         _blockTimestampLast = blockTimestampLast;
     }
 
+    function _shouldCheckTransferReturn(address token) private pure returns (bool) {
+      // @TRON USDT on tron returns `false` when it succeeds
+      return token != USDT_TOKEN_ADDRESS;
+    }
+
     function _safeTransfer(address token, address to, uint value) private {
         (bool success, bytes memory data) = token.call(abi.encodeWithSelector(SELECTOR, to, value));
-        require(success && (data.length == 0 || abi.decode(data, (bool))), 'UniswapV2: TRANSFER_FAILED');
+        require(success, 'UniswapV2: TRANSFER_FAILED (transfer reverted)');
+        if (data.length > 0 && _shouldCheckTransferReturn(token)) {
+          require(
+            abi.decode(data, (bool)),
+            'UniswapV2: TRANSFER_FAILED (return is false)'
+          );
+        }
     }
 
     event Mint(address indexed sender, uint amount0, uint amount1);
